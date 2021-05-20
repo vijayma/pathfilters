@@ -10,6 +10,8 @@ trigger:
  paths:
    include:
      - code
+   exclude:
+     - docs
 
 pool:
   vmImage: ubuntu-latest
