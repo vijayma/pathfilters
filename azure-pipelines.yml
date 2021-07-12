@@ -5,6 +5,12 @@
 
 trigger: none
 
+resources:
+ repositories:
+   - repository: Vijay2
+     type: git
+     name: Vijay2/Vijay2
+    
 pr:
  branches:
    include:
